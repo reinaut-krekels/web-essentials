@@ -1,0 +1,42 @@
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 15px;
+	border: thin solid black;
+	
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+}
+
+#container {
+	border: thick solid gray;
+	background-color: lightgray;
+	padding: 5px;
+}
+
+#a {
+	color: red;
+	border-color: red;
+	background-color: lightcoral;
+}
+#b {
+	color: green;
+	border-color: green;
+	background-color: lightgreen;
+}
+#c {
+	color: blue;
+	border-color: blue;
+	background-color: lightblue;
+}
+#d {
+	color: yellow;
+	border-color: yellow;
+	background-color: lightyellow;
+}
+#e {
+	color: orange;
+	border-color: orange;
+	background-color: lightsalmon;
+}

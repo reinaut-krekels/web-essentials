@@ -1,0 +1,33 @@
+.vobestyle {
+	border: 2px solid black !important;
+	border-collapse: collapse;
+
+	/* border: 1px outset grey; */
+}
+
+.vobestyle td {
+	border: 2px solid grey;
+	/* border: 1px inset grey; */
+}
+
+.vobestyle th {
+	background-color: gray;
+	color: white;
+	border: 2px solid gray;
+}
+
+.vobestyle tr>td:nth-child(3) {
+	font-style: italic;
+}
+
+.vobestyle tr>td:nth-child(n+4) {
+	text-align: center;
+}
+
+.vobestyle tr:nth-child(odd) {
+	background-color: lightgray;
+}
+
+.vobestyle tr:first-child {
+	background-color: white;
+}

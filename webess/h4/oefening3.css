@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  background-color: #fbd1a2;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #1b5fb7;
+}
+
+article {
+  margin-bottom: 80px;
+}
+
+article > section {
+  width: 20vw;
+  height: 20vw;
+  margin: 2vw;
+  background-color: #07c1c4;
+  float: left;
+}
+
+article > section:hover {
+  background-color: #7dcfb6;
+  cursor: pointer;
+}
+
+div.clear {
+  clear: both;
+  height: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #f79256;
+  text-align: center;
+  color: #1b5fb7
+}

@@ -1,0 +1,31 @@
+body.default .box {
+	/* nothing */
+}
+
+body.floating .box {
+	float: left;
+}
+
+body.clearfix #container::after {
+	content: ".";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+body.blarge #b {
+	height: 200px;
+	width: 200px;
+}
+
+body.cmatch #c {
+	position: relative;
+	bottom: 5px;
+	top: 5px;
+	height: auto;
+}
+body.cmatch #container {
+	position: relative;
+}

@@ -1,0 +1,33 @@
+body {
+  background-color: #151c28;
+}
+
+h1 {
+  color: #ffe14f;
+  text-align: center;
+  font-size: 3em;
+}
+
+article {
+  border: 2px solid #ffe14f;
+  border-radius: 6px;
+  padding: 1%;
+  width: 20%;
+  margin: 10px 1%;
+  float: left;
+  text-align: center;
+  min-width: 200px;
+}
+
+article > img {
+  height: 128px;
+}
+
+article:hover {
+  background-color: #8daec6;
+  cursor: pointer;
+}
+
+audio {
+  width: 100%;
+}

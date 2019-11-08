@@ -1,0 +1,15 @@
+div {
+	background-color: #8cffa0;
+	display: flex;
+	max-width: 600px;
+}
+
+p {
+	margin: 0 0 0 1em;
+	background-color: #8ca0ff;
+}
+p:first-child {
+	margin-left: 0;
+	max-width: 70px;
+	overflow: hidden;
+}

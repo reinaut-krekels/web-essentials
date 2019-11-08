@@ -1,0 +1,39 @@
+html, body {
+  background-color: #46211A;
+  color: white;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  padding: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A43820;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BA5536;
+}
+
+li img {
+  height: 48px;
+  margin: 4px 0px 0px 4px;
+}

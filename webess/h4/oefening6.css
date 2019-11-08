@@ -1,0 +1,66 @@
+body {
+	background-color: hsla(18, 100%, 50%, 1);
+  font-family: Roboto, serif;
+  font-size: 1.2em;
+  color: hsla(18, 100%, 90%, 1);
+
+  padding-left: 16px;
+}
+
+div {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 5px hsl(65, 10%, 20%);
+}
+
+h1 {
+	font-size: 18pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: hsla(18, 100%, 90%, 1);
+
+	/* altijd bovenaan */
+	position: relative;
+	z-index: 99;
+}
+
+div:nth-of-type(1) {
+	top: 130px;
+	left: 80px;
+	z-index: 4;
+  	background-color: hsla(18, 100%, 90%, 0.6);
+}
+
+div:nth-of-type(2) {
+	top: 170px;
+	left: 120px;
+	z-index: 3;
+  background-color: hsla(18, 100%, 70%, 0.6);
+}
+
+div:nth-of-type(3) {
+	top: 210px;
+	left: 160px;
+	z-index: 2;
+  background-color: hsla(18, 100%, 50%, 0.6);
+}
+
+div:nth-of-type(4) {
+	top: 250px;
+	left: 200px;
+	z-index: 1;
+  background-color: hsla(18, 100%, 30%, 0.6);
+}
+
+/*
+	Voorbeeld van een hover effect op de derde div
+	De z-index wordt verhoogd en zal dus bovenaan getoond worden
+*/
+div:nth-of-type(3):hover {
+	top: 210px;
+	left: 160px;
+	z-index: 6;
+	background-color: red;
+}
