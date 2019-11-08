@@ -1,2 +1,2 @@
-Dit is de repository voor Web Essentials
+Dit is de repository voor Web Essentials van 1PROgh
 En om git te test/leren
