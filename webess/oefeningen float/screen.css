@@ -1,0 +1,15 @@
+html, body {
+  background-color: #526687;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 36px;
+}
+
+nav img {
+  width: 40%;
+  margin: 4%;
+}
