@@ -1,0 +1,37 @@
+html {
+    font-family: Bahnschrift, sans-serif;
+    background-color: cornflowerblue;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 5px;
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid darkkhaki;
+}
+
+header {
+    background-color: #1b5fb7;
+    color: cornsilk;
+}
+
+main {
+    width: 850px;
+    float: left;
+}
+
+figure {
+    border: 3px dashed #1b5fb7;
+    width: 70px;
+    float: right;
+    margin: 0;
+}
+
+footer {
+    border-top: 1px solid #1b5fb7;
+    clear: both;
+    text-align:center;
+    background-color: peru;
+    color: white;
+}
